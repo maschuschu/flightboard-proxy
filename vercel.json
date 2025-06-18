@@ -1,0 +1,10 @@
+
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/departures.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/departures", "dest": "api/departures.js" }
+  ]
+}
