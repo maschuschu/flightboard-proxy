@@ -1,4 +1,3 @@
-// Datei: api/departures.js
 export default async function handler(req, res) {
   const { airport, begin, end } = req.query;
 
